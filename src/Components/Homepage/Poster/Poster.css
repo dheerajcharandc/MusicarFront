@@ -1,0 +1,93 @@
+.poster{
+    height: 32vh;
+    width: 100%;
+    margin-top: 0;
+}
+/* .poster_span{
+    display: flex;
+    align-items: center;
+    color: #2E0052;
+    font-family: Roboto;
+    font-size: 30.13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+.poster_para{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.poster_para span{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: Roboto;
+} */
+.poster_pic{
+    height: 19vh;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7286B4 0%, #E794CE 100%);
+    width: 94%;
+    margin: auto;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+.poster_pic div{
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.poster_pic h1{
+    color: #2E0052;
+    font-family: Roboto;
+
+}
+.poster_pic button{
+border-radius: 30px;
+background: #2E0052;
+border: none;
+padding: 5px 10px;
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+}
+.poster_pic img{
+   width: 20%;
+   height: 22vh;
+   margin-top: -3vh;
+}
+@media  screen and (max-width:400px) {
+    .poster_pic{
+        height: auto;
+        border-radius: 7px;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .poster_pic h1{
+        font-size: 20.553px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .poster_pic div{
+        width: 60%;
+        margin-left: 30px;
+        margin-top: 5px;
+    } 
+    .poster{
+        height: auto;
+    }
+    .poster_pic img{
+        width: 40%;
+     }
+     .poster_pic button{
+        border-radius: 10px;
+        padding: 3px 10px;
+        margin-top: 10px;
+        font-size: 11px;   
+     }
+}

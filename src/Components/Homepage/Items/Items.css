@@ -1,0 +1,145 @@
+/* .items{
+    overflow-y: scroll;
+    font-family: Roboto;
+    height: 200px;
+    display: flex;
+} */
+.items {
+    font-family: Roboto;
+    height:60vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px; 
+    margin-bottom: 7.5vh;
+    overflow-y: scroll;
+  }
+  .horizontal__view{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+  }
+  .item {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pro__img {
+   height: 140px; 
+   width: 200px;
+   border: 20px solid  rgba(0, 102, 255, 0.17);
+  }
+
+  .item__vertical{
+    display: flex;
+    margin-top: 15px;
+  }
+  .item__det{
+    margin-left: 6%;
+    margin-top: 5px;
+  }
+  .item__det p{
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  .item__det button{
+    border: none; 
+    border-radius: 26.121px;
+    background: #2E0052;
+    padding: 5px 15px;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .vertical__view{
+    margin-left: 40px;
+  }
+  .image-container{
+    position: relative;
+  }
+  .new__cart {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  .new__cart1 {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: none;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  .new__cart img{
+    height: 40px;
+    width: 40px;
+  }
+  .new__cart1 img{
+    height: 40px;
+    width: 40px;
+  }
+
+
+  @media screen and (max-width:400px){
+    .items {
+        /* Adjust the gap between items as needed */
+        font-family: Roboto;
+        /* overflow-y: scroll; */
+        /* height:93vh; */
+        margin-top: 20px; 
+        width: 94%;
+        margin: auto;
+        margin-top: 10px; 
+        margin-bottom: 9vh;
+        height: 42vh;
+      }
+      .horizontal__view{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        /* Display 4 items in a row */
+        /* gap: 10px; */
+      }
+      .item {
+        text-align: initial;
+      }
+      .item-content {
+        overflow-y: scroll; 
+        max-height: 50vh;
+        border:   1px solid #C8C8C8;
+        border-radius: 3px;
+        
+      }
+      .pro__img {
+       height: 125px; 
+       width: 125px;
+       border: 16px solid  rgba(0, 102, 255, 0.17);
+      }
+      .new__cart {
+        border: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: none;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .content{
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 0;
+        margin: 0;
+      }
+
+  }

@@ -1,0 +1,141 @@
+.lastpage{
+    height: 100vh;
+}
+
+.last__button{
+    margin-top: 20px;
+}
+.lastpage_span{
+    display: flex;
+    align-items: center;
+    color: #2E0052;
+    font-family: Roboto;
+    font-size: 30.13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.lastpage_span img{
+    height: 45px;
+    width: 45px;
+}
+
+.last__button button{
+    background: none;
+    border: none;
+    border-radius: 8px;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 5px 15px;
+}
+.para__1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.para__2{
+    color: #969696;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+  }
+  .done{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+    border-radius: 11px;
+    border: 2px solid #E3E3E3;
+    background: #FFF;
+    box-shadow: 14px 16px 23px 2px rgba(0, 0, 0, 0.11);
+    padding: 15px ;
+}
+.lastpage_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 23.411px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 6px;
+}
+
+@media screen and (max-width:400px) {
+
+    .lastpage_span {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 5vh; 
+        padding: 5px; 
+        font-family: Roboto;
+        font-size: 18.13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: #2E0052;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 0vh;
+        margin-left: 0px; 
+      }
+    .lastpage_span img{
+        height: 32px;
+        width: 32px;
+        margin-left: 20px;
+    }
+    .lastpage_footer{
+        display: none;
+    }
+    .last_img img{
+        height: 85px;
+        width: 85px;
+    }
+    .para__1{
+        font-size: 18.627px; 
+    }
+    .para__2{
+        font-size: 12.841px;
+        width: 228px;
+        text-align: center;
+    }
+    .last__button button{
+        width: 228px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+    .center-container {
+        height: 85vh;
+      }
+    .done{
+        border-radius: 15px;
+        padding: 50px 10px ;
+    }
+   
+}

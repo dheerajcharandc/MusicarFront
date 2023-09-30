@@ -1,0 +1,223 @@
+.orders{
+    font-family: Roboto;
+    
+}
+
+.mycart{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mycart img{
+    height: 40px;
+}
+.order__pic{
+    width: 200px;
+    height:200px ;
+    border: 2px solid  #2E0052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.order__pic img{
+    height: 120px;
+    width: 120px;
+}
+.itemss{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.cart__items{
+    width: 70%;
+    overflow-y: scroll;
+    height: 50vh;
+}
+.ordered__item{
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 2px solid #E1E1E1;
+    border-bottom: 2px solid #E1E1E1;  
+    padding: 10px 0px;
+    position: relative;
+   margin-top: 40px;
+}
+.item_details p{
+    color: #A2A2A2;
+font-family: Roboto;
+font-size: 16.793px;
+font-style: normal;
+font-weight: 400;
+line-height: 13.098px; /* 123.529% */
+margin-top: 10px;
+}
+.aside__item{
+    border-left: 2px solid #E1E1E1;
+    padding: 0px 10px;
+    margin-left: 60px;
+    height: 40vh;
+    width: 18%;
+    position: relative;
+}
+#quantity{
+    width: 70px;
+    border-radius: 0px 0px 5px 5px;
+    border: 0.9px solid #BEBEBE;
+    background: #F9F9F9;
+}
+.aside__item p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside__item p span{
+    font-weight: 600;
+    width: 10%;
+}
+.total{
+    position: absolute;
+    bottom: -30px;
+}
+
+.totall p{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0; 
+    width: 90%;  
+   
+}
+.place__order button{
+   border: none;
+   width: 100%;
+   margin: auto;
+   margin-top: 20vh;
+   height: 30px;
+   border-radius: 11px;
+    background: #FFD600;
+}
+.order__search{
+    display: none;
+}
+.Order_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 23.411px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 6px;
+}
+.mob__item{
+    display: none;
+}
+@media screen and (max-width:400px) {
+
+    .order__search{
+        display: flex; 
+    }
+    .mycart{
+        display: none;
+    }
+    
+    .Order_footer{
+        
+        display: none; 
+    }
+    .itemss{
+       display:none ;
+    }
+    .mob__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin-top: 20px;
+        height: auto;
+        margin-bottom: 12vh;
+      }
+      
+      .mob__items {
+        display: flex;     
+        width: 100%; 
+        margin-top: 10px;
+        background: #DBDBDB;
+      }
+      .mobitem__pic{
+        width: 45%;
+      }
+      .mobitem__pic img {
+        height: 140px;
+        width: 140px;
+        margin-left: 10px;
+      }
+      
+      .huhu{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background: #DBDBDB;
+        margin: auto;
+        /* padding-bottom: 10px; */
+        overflow-y: scroll;
+        border: 2px solid #E1E1E1;
+      }
+     .tutal{
+        margin-top: 20px;
+        margin-left: 45%;
+        width: 40%; 
+        margin-bottom: 20px;
+     }
+     .tutal p{
+        display: flex;
+        justify-content: space-between;
+     }
+     .total__amount{
+        width: 90%;
+        border-top: 3px solid  #000;
+        margin: auto;
+        margin-top: 10px;
+        padding-top: 20px;
+        display: flex;
+        gap: 10px;
+     }
+     .total__amount p{
+        color: #000;
+        font-family: Roboto;
+        font-size: 20.727px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.415px;
+     }
+     .total__amount h3{
+        font-weight: 600;  
+     }
+     .mob__order{
+        width: 90%;
+       margin: auto;
+       margin-top: 10px;
+     }
+     .mob__order button{
+        width: 100%;
+        border: none;
+        height: 35px;
+        border-radius: 8px;
+        background: #FFD600;
+     }
+     .mob__cc{
+        margin-left: 5%;
+     }
+} 

@@ -1,0 +1,20 @@
+.homepage_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 23.411px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 6px;
+}
+@media  screen and (max-width:400px) {
+    .homepage_footer{
+        display: none;
+    }
+}

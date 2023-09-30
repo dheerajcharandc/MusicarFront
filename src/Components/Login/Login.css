@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+}
+.Login{
+   font-family: Roboto;
+} 
+
+
+.para_desc{
+    width: 340px;
+    margin-top: 4px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12.75px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 146.479% */
+}
+.tosignup{
+    width: 390px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1.5px solid #BDBDBD;
+    background: #FFF;
+    margin-top: 30px;
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 113.043% */
+}
+.login_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 23.411px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 6px;
+    
+}
+.wel{
+    display: none;
+}
+/* Style for .para_new */
+.para_new {
+    margin-top: 30px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line{
+    width: 110px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .para_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2E0052;
+    font-family: Roboto;
+    font-size: 44.13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7vh;
+}
+.para_login img{
+    height: 45px;
+    width: 45px;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh; 
+}
+.login_container{
+    border-radius: 19.201px;
+    border: 1.9px solid #D9D9D9;
+    background: #FFF;
+    padding: 15px;
+}
+.login__form input{
+    width: 347px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1.7px solid #B6B6B6;
+    background: #FFF; 
+    margin-top: 10px;
+}
+.form {
+    margin-top: 20px;
+}
+.form p{
+    margin-top: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.login__button{
+    margin-top: 20px;
+}
+.login__button button{
+    width: 360px;
+    height: 36px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #2E0052;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.login__form h2 p{
+    display: none;
+}
+.login__form h2 span{
+    display: none;
+}
+  
+  @media screen and (max-width:400px){
+
+    .para_login {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 5vh; 
+        padding: 5px; 
+        font-family: Roboto;
+        font-size: 18.13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: #2E0052;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 0vh; 
+      }
+    .para_login img{
+        height: 32px;
+        width: 32px;
+        margin-left: 20px;
+    }
+    .wel{
+        display: flex;
+        color: #2E0052;
+        font-family: Roboto;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .login__form{
+        margin-top:10px;
+        width:100% ;
+    }
+    .login__form h2 p{
+        display: flex;
+        font-weight: 300;
+        font-size: 13px;
+        color: #000;
+
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .login__form h2 span{
+        display: flex;
+    }
+    .login__form h2{
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        gap: 2px;
+        font-weight: 600;
+    }
+    .form p{
+        margin-top: 5px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 13.353px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+  
+    .login_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border-radius: 10.201px;
+        border: 1.3px solid #D9D9D9;
+        background: #FFF;
+        margin: auto;
+    }
+    .login__form input{
+        width: 283px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1.7px solid #B6B6B6;
+        background: #FFF; 
+        margin-top: 10px;
+    }
+    .login__button{
+        margin-top: 10px;
+    }
+    .login__button button{
+        width: 288px;
+        height: 40px;
+        flex-shrink: 0;
+        border: none;
+        border-radius: 4px;
+        background: #2E0052;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       
+    }
+  
+    .tosignup{
+        width: 324px;
+        height: 42px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1.5px solid #BDBDBD;
+        background: #FFF;
+        margin-top: 30px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+     .para_desc{ 
+        display: none;
+    }
+    .para_desc p { 
+        color: #000;
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+    }   
+    .form {
+        margin-top: 10px;
+    }
+    .para_new {
+        margin-top: 15px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .line{
+        width: 110px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .login_footer{
+        font-size: 13.411px;  
+    }
+  }
+ 
+  
+
+  
